@@ -1,1 +1,19 @@
-# Created by .ignore support plugin (hsz.mobi)
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+.gradle/
+.idea/
+build/reports/
+build/resources/
+build/test-results/
+build/tmp/
+driver/
+gradlew
+gradlew.bat
+out/production/
+out/test/resources/
+settings.gradle
+build.gradle
