@@ -1,3 +1,6 @@
+plugins {
+    id 'ru.vyarus.quality' version '2.4.0'
+}
 group 'com.waverleysoftware'
 version '0.0.1'
 
@@ -13,14 +16,15 @@ ext.seleniumVersion = '2.41.0'
 
 dependencies {
     compile('org.testng:testng:6.12')
-    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version:seleniumVersion
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: seleniumVersion
 }
 
-task wrapper(type:Wrapper){
+task wrapper(type: Wrapper) {
     gradleVersion '4.3'
 }
-test{
-    useTestNG(){
+
+test {
+    useTestNG() {
         suites 'src/test/resources/smoke-suite.xml'
     }
 }

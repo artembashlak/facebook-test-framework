@@ -2,10 +2,8 @@
 <suite name="Smoke" parallel="methods" thread-count="2">
     <test name="Chrome group">
         <classes>
-            <class name="com.waverleysoftware.BaseClass"/>
-            <class name ="com.waverleysoftware.LoginToApplication"/>
-            <class name ="com.waverleysoftware.MenuActive"/>
-            <class name ="com.waverleysoftware.MessageSend"/>
+            <class name="com.testsuite.BaseSetup"/>
+            <class name ="com.testsuite.FacebookPostTest"/>
         </classes>
     </test>
 </suite>
