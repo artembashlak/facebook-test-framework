@@ -13,9 +13,6 @@ ext.seleniumVersion = '2.41.0'
 
 dependencies {
     compile('org.testng:testng:6.12')
-    compile group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version:seleniumVersion
-    compile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version:seleniumVersion
-    compile group: 'org.seleniumhq.selenium', name: 'selenium-api', version:seleniumVersion
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version:seleniumVersion
 }
 

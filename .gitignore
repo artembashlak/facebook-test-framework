@@ -16,4 +16,4 @@ gradlew.bat
 out/production/
 out/test/resources/
 settings.gradle
-build.gradle
+src/main/
