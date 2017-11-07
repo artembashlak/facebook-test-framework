@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke" parallel="methods" thread-count="2">
+    <test name="Chrome group">
+        <classes>
+            <class name="com.waverleysoftware.BaseClass"/>
+            <class name ="com.waverleysoftware.LoginToApplication"/>
+            <class name ="com.waverleysoftware.MenuActive"/>
+            <class name ="com.waverleysoftware.MessageSend"/>
+        </classes>
+    </test>
+</suite>
